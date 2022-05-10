@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <script src="https://kit.fontawesome.com/7fe77ffbbc.js" crossorigin="anonymous"></script>
+
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Rick and Morty JS</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+	</head>
+	<body class="open afterClick">
+		<section class="title">
+			<h1><img class="titleImage" src="rick-and-morty-logo2.png" alt="Rick and Morty"></h1>
+			<h2 class="action" id="clickToStart">Total Rickall</h2>
+		</section>
+		<section id="bottomSection"class="characterSelection hidden">
+			<section class="characterProfiles">
+				<section class="profileTopRow">
+					<div id="jerry" class="action character real"> <img class="jerry" src="images/characters/new/jerry-512x512.png" alt=""></div>
+					<div id="summer" class="action character other real"> <img class="summer" src="images/characters/new/summer-512x512.png" alt=""></div>
+					<div id="reverseGiraffe" class="action character parasite"> <img class="reverseGiraffe" src="images/characters/new/reverse-giraffe-512x512.png" alt=""></div>
+					<div id="ghostInAJar" class="action character other parasite"> <img class="ghostInAJar" src="images/characters/new/ghost-jar-512x512.png" alt=""></div>
+					<div id="morty" class="action character real"> <img class="morty" src="images/characters/new/morty-512x512.png" alt=""></div>
+				</section>
+				<section class="profileBottomRow">
+					<div id="duckWithMuscles" class="action character other parasite"> <img class="duckWithMuscles" src="images/characters/new/duck-muscles-512x512.png" alt=""></div>
+					<div id="beth" class="action character real"> <img class="beth" src="images/characters/new/beth-512x512.png" alt=""></div>
+					<div id="pencilvester" class="action character other parasite"> <img class="pencilvester" src="images/characters/new/pencilvester-512x512.png" alt=""></div>
+					<div id="mrPoopybutthole" class="action character real"> <img class="mrPoopybutthole" src="images/characters/new/mr-poopybutthole-512x512.png" alt=""></div>
+					<div id="rick" class="action character other parasite"> <img class="rick" src="images/characters/new/rick-512x512.png" alt=""></div>
+				</section>
+			</section>
+			<section class="characterSelectionMain hidden">
+				<p id="answerCorrectReal" class="hidden correct answer">Correct!<br/> <span id="cheese1" class="characterName"></span>is real!</p>
+				<p id="answerWrongReal" class="hidden wrong answer">Wrong!<br/><span id="cheese2" class="characterName"></span>is a parasite.!</p>
+				<p id="answerCorrectParasite" class="hidden correct answer">Correct!<br/> <span id="cheese3" class="characterName"></span>is a parasite!</p>
+				<p id="answerWrongParasite" class="hidden wrong answer">Wrong!<br/> <span id="cheese4" class="characterName"></span>is NOT a parasite!</p>
+				<section class="infectionChooser"> 
+					<h2 id="loadPictureName"> </h2>
+					<img id="loadPictureHere" src="" alt="">
+					<div id="buttons">
+						<button id="real" class="action button" type="button" name="button">Real</button>
+						<span id="or">or</span>
+						<button id="parasite" class="action button" type="button" name="button">Parasite</button>
+					</div>
+				</section>
+
+			</section>
+			<div class="links">
+    <span>Website by:&nbsp; <a class="icon" target="_blank" rel="noopener noreferrer" href="https://brettcrafton.com"> Brett Crafton</a></span>
+    <ul class="icons">
+        <li><a class="icon fa-solid fa-globe" target="_blank" rel="noopener noreferrer" href="https://brettcrafton.com"></a></li>
+        <li><a class="icon fa-brands fa-twitter" target="_blank" rel="noopener noreferrer" href="https://twitter.com/BrettC_Dev"></a></li>
+        <li><a class="icon fa-brands fa-github" target="_blank" rel="noopener noreferrer" href="https://github.com/BrettCrafton"></a></li>
+        <li><a class="icon fa-brands fa-linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/brett-crafton-19b69912a/"></a></li>
+        <li><a class="icon fa-solid fa-envelope" href="mailto:bcrafton@gmail.com"></a></li>
+    </ul>
+</div>
+		</section>
+
+<div class="links">
+    <span>Website by:&nbsp; <a class="icon" target="_blank" rel="noopener noreferrer" href="https://brettcrafton.com"> Brett Crafton</a></span>
+    <ul class="icons">
+        <li><a class="icon fa-solid fa-globe" target="_blank" rel="noopener noreferrer" href="https://brettcrafton.com"></a></li>
+        <li><a class="icon fa-brands fa-twitter" target="_blank" rel="noopener noreferrer" href="https://twitter.com/BrettC_Dev"></a></li>
+        <li><a class="icon fa-brands fa-github" target="_blank" rel="noopener noreferrer" href="https://github.com/BrettCrafton"></a></li>
+        <li><a class="icon fa-brands fa-linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/brett-crafton-19b69912a/"></a></li>
+        <li><a class="icon fa-solid fa-envelope" href="mailto:bcrafton@gmail.com"></a></li>
+    </ul>
+</div>
+		<script type="text/javascript" src="js/main2.js"></script>
+	</body>
+</html>
