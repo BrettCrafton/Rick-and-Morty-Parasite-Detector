@@ -11,7 +11,7 @@ Live Project at: <a href="https://brettcrafton.com/Portfolio/Rick-and-Morty/inde
 
 **Tech used:** HTML, CSS, JavaScript
 
-Lots of hard coded JS. Event listeners for button clicks. Most clicks change (add/remove/toggle) classes to complete changes to the rendered DOM. Characters are saved in an array pulled from the HTML class "characters". At same time character array is created, event listeners are edded to each of those elements. Each of those events listeners, on click, cause the complex conditional function to determine which character was pressed and what to display. Similar interaction is determined by different functions when answer is choosen for that character.
+Lots of hard coded JS. Event listeners for button clicks. Most clicks change (add/remove/toggle) classes to complete changes to the rendered DOM. Characters are saved in an array pulled from the HTML class "characters". At same time character array is created, event listeners are added to each of those elements. Each of those events listeners, on click, cause the complex conditional function to determine which character was pressed and what to display. Similar interaction is determined by different functions when answer is choosen for that character.
 
 ## Optimizations:
 
