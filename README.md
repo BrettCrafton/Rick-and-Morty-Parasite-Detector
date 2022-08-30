@@ -31,6 +31,8 @@ Selecting a new character will hide prevous attempt.
 
 ## Other Projects:
 
+**You Can't Afford Rent:** https://github.com/BrettCrafton/You-Cant-Afford-Rent
+
 **Magical World of Harry Potter:** https://github.com/BrettCrafton/Magical-World-of-Harry-Potter
 
 **Cocktail Recipes:** https://github.com/BrettCrafton/Cocktail-Recipes
