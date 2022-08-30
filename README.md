@@ -34,8 +34,12 @@ Selecting a new character will hide prevous attempt.
 **You Can't Afford Rent:** https://github.com/BrettCrafton/You-Cant-Afford-Rent
 
 **Magical World of Harry Potter:** https://github.com/BrettCrafton/Magical-World-of-Harry-Potter
+<a href="https://brettcrafton.com/Portfolio/Harry%20Potter/index.html" target="_blank" rel="noreferrer"> <img src="https://github.com/BrettCrafton/BrettCrafton/blob/main/assets/Harry%20Potter%20gif.gif?raw=true" alt="project example"/> </a>
+
 
 **Cocktail Recipes:** https://github.com/BrettCrafton/Cocktail-Recipes
+<a href="https://brettcrafton.com/Portfolio/Bar%20API/index.html" target="_blank" rel="noreferrer"> <img src="https://github.com/BrettCrafton/BrettCrafton/blob/main/assets/Cocktail%20Recipe%20gif.gif?raw=true" alt="project example"/> </a>
+
 
 **NASA APOD:** https://github.com/BrettCrafton/NASA-APOD
-
+<a href="https://brettcrafton.com/Portfolio/NASA%20API/index.html" target="_blank" rel="noreferrer"> <img src="https://github.com/BrettCrafton/BrettCrafton/blob/main/assets/NASA%20APOD%20gif.gif?raw=true" alt="project example"/> </a>
